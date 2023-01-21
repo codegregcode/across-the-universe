@@ -1,4 +1,4 @@
-const Universe = require('../src/universe');
+const Universe = require('../src/universe.js');
 
 describe('Universe', () => {
     describe('creates galaxies', () => {
@@ -17,6 +17,7 @@ describe('Universe', () => {
 
     it('has  galaxies', () => {
         expect(uni.galaxies).toBeTruthy();
+        console.log(uni);
     })
     });
 });

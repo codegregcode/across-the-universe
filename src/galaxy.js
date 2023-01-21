@@ -5,4 +5,4 @@ class Galaxy {
     }
 }
 
-module.exports = Galaxy
+module.exports = Galaxy;
