@@ -17,7 +17,6 @@ describe('Universe', () => {
 
     it('has  galaxies', () => {
         expect(uni.galaxies).toBeTruthy();
-        console.log(uni);
     })
     });
 });

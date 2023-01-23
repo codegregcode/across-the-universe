@@ -1,4 +1,4 @@
-const galaxyList = require("./lists");
+const galaxyList = require("./galaxylists");
 
 class Universe {
     constructor(name) {
