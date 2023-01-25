@@ -22,6 +22,14 @@ At the moment, functionality is very limited...the universe will create a random
 
 Also, instead of totally random number of galaxies being created, I'd like that number to be influenced by the user interacting with 'something' (e.g. clicks of a button during a timed event). The interaction will determine how many galaxies, solar systems and planets are made, as well as increasing posibilty for life. Life is 'created' by a solar system having a seed of life and planet a chance of life
 
+25/1 - update -
+
+atm a universe contains galaxies, galaxies contains solar systems, solar systems contain planets, planets should contain lifeforms. but how can i represent a lifeform in js?...atm my class constructer for lifeforms has has name, type and sentience keys, but i think type needs to be thought about. as everything should start off as a single celled organism, but how should evolution be represented/how much control should user have over?
+
+idea 1 - everything starts off as single celled organism, as time moves on life evolves into distinct types of lifeforms (with varying intelligence)
+
+idea 2 - user doesn't see what types of lifeforms there are, but knows if i planet contains life. user can protect life from 'space events' e,g astroid strike, solar flares. successful avoidance of space-event can level up life and even planet (ie could make a better atmosphere for protection against solar flares) after certain number of space-events/level up then sentience reached and game completes
+
 ### Authors and acknowledgement
 
 @codegregcode
