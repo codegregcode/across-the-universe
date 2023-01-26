@@ -16,11 +16,11 @@ You will need to install Jest using NPM if you'd like to make any changes (if yo
 
 ### Roadmap
 
-There's no real timeline with this project, I'm just going to work on it in the downtime of my CommandShift studies.
+26/1 - update -
 
-At the moment, functionality is very limited...the universe will create a random number of galaxies, but no solarsystems and planets etc.
+i think idea 2 is the kind of thing that i should use for creating/representing lifeforms in js/across-the-universe
 
-Also, instead of totally random number of galaxies being created, I'd like that number to be influenced by the user interacting with 'something' (e.g. clicks of a button during a timed event). The interaction will determine how many galaxies, solar systems and planets are made, as well as increasing posibilty for life. Life is 'created' by a solar system having a seed of life and planet a chance of life
+every planet will have Lifeforms, but whether exist is true or false will be determined if the planet it's on has chanceOfLife: true and the solar system that planet is in has seedOfLifeL true, however this functionality has yet to be implemented in either solarSystem or Planet, so exist currently is null (as it is in solarsystem and planet)
 
 25/1 - update -
 
@@ -29,6 +29,12 @@ atm a universe contains galaxies, galaxies contains solar systems, solar systems
 idea 1 - everything starts off as single celled organism, as time moves on life evolves into distinct types of lifeforms (with varying intelligence)
 
 idea 2 - user doesn't see what types of lifeforms there are, but knows if i planet contains life. user can protect life from 'space events' e,g astroid strike, solar flares. successful avoidance of space-event can level up life and even planet (ie could make a better atmosphere for protection against solar flares) after certain number of space-events/level up then sentience reached and game completes
+
+There's no real timeline with this project, I'm just going to work on it in the downtime of my CommandShift studies.
+
+At the moment, functionality is very limited...the universe will create a random number of galaxies, but no solarsystems and planets etc.
+
+Also, instead of totally random number of galaxies being created, I'd like that number to be influenced by the user interacting with 'something' (e.g. clicks of a button during a timed event). The interaction will determine how many galaxies, solar systems and planets are made, as well as increasing posibilty for life. Life is 'created' by a solar system having a seed of life and planet a chance of life
 
 ### Authors and acknowledgement
 
